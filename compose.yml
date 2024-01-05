@@ -14,6 +14,7 @@ services:
     image: confluentinc/cp-kafka:7.3.2
     hostname: kafka1
     container_name: kafka1
+    restart: always
     ports:
       - 9092:9092
       - 29099:29099
